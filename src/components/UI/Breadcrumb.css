@@ -1,0 +1,20 @@
+.breadcrumb{
+    background: none;
+    padding: 0;
+}
+.breadcrumb-item-custom,.breadcrumb-item-custom:hover{
+    color: #4F5665;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.breadcrumb-item-custom::after{
+    content: '>';
+    padding: 0 0.5rem;
+}
+.breadcrumb-item-custom.active::after{
+    content: none;
+}
+.breadcrumb-item-custom.active{
+    color: #6A4029;
+    font-weight: bold;
+}

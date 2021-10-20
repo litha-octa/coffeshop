@@ -1,0 +1,33 @@
+.radio-toolbar {
+    margin: 0 10px;
+}
+
+.radio-toolbar > input[type='radio'],
+.radio-toolbar > input[type='radio'] + label:before {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.radio-toolbar label {
+    background: #f4f4f8;
+    border: 1px solid rgba(186, 186, 186, 0.35);
+    display: inline-block;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+
+.radio-toolbar input[type='radio']:focus + label {
+    border: 2px dashed #444;
+}
+
+.radio-toolbar input[type='radio']:checked + label {
+    background-color: #6a4029;
+    color: white;
+    font-weight: bold;
+}

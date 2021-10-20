@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+#text-white-1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+#text-white-2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+#text-header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+#text-checkout {
+    width: 316px;
+    height: 70px;
+    left: 150px;
+    top: 248px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+#text-normal {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #362115;
+
+}
+#order-line {
+    width: 50px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
+    border: 1px solid #E0E0E2;
+}
+#black-circle {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    border-radius: 50px;
+    border: 5px solid #6A4029;
+    background-color: #6A4029;
+    padding: 7px;
+    margin-left: 7px;
+}
+#text-summary { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 52px;
+    /* identical to box height */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #362115;
+
+}
+#line-item {
+    height: 0px;
+    left: 194px;
+    top: 826px;
+
+    opacity: 0.3;
+    border: 0.5px solid #000000;
+}
+#card-image {
+    display: inline;
+    width: 40px;
+    height: 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 2px solid #F47B0A;
+    background-color: #F47B0A;
+    padding: 6px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#bank-image {
+    display: inline;
+    width: 40px;
+    height: 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 2px solid #895537;
+    background-color: #895537;
+    padding: 6px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#cod-image {
+    display: inline;
+    width: 40px;
+    height: 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 2px solid  #FFBA33;
+    background-color:  #FFBA33;
+    padding: 6px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#btn-container {
+    padding: 5px;
+}
+.container-payment {
+    background-image: url('../../assets/images/payment-bg.png');
+    padding: 5rem;
+    padding-top: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-payment .order-step{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-payment .text-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+.container-payment .step-order{
+    width: 40px;
+    height: 40px;
+    left: 554px;
+    top: 160px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    margin-bottom: 50px;
+ }
+ .container-payment .step-order img{
+     padding: 10px;
+  }
+  .container-payment .step-checkout img{
+    padding: 10px;
+ }
+ 
+.container-payment .step-checkout{
+    width: 40px;
+    height: 40px;
+    left: 554px;
+    top: 160px;
+    border-radius: 50px;
+    background: #FFFFFF;
+ }
+.container-payment .step-payment{
+    width: 40px;
+    height: 40px;
+    left: 554px;
+    top: 160px;
+    border-radius: 50px;
+    background: #FFFFFF;
+ }
+ .container-payment .card-content-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    margin-top: 30px;
+ }
+ .container-payment .card-content-container .user-order-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    flex: 1 1;
+    max-width: 30%;
+    margin-left: 80px;
+  }
+  .container-payment .card-content-container .user-order-card .btn-confirm{ 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    margin-top: auto;
+    text-align: center;
+    padding-top: 10px;
+    color: #FFFFFF;
+    background: #6A4029;
+    box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+    border-radius: 20px;
+    height: 65px;
+  }
+  .container-payment .card-content-container .user-order-card .details-address{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+   }
+   .container-payment .card-content-container .user-order-card .address .radio-btn{
+       padding: 5px;
+   }
+   .container-payment .card-content-container .user-order-card .details-address .details{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    }
+    .container-payment .card-content-container .user-order-card .details-address .edits{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    align-self: center;
+    margin-left: auto;
+    }
+   
+  
+  .container-payment .card-content-container .user-order-card .container{
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border: solid #E5E5E5;
+  border-radius: 20px;
+}
+.container-payment .card-content-container .user-order-card .container .address-container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    font-family: "Poppins", "sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+
+ }
+ #bold-text {
+    font-weight: bold;
+ }
+ div .slide-btn {
+    width: 50%;
+    height: 59px;
+    padding: 10px;
+    margin-top: 20px;
+    background: #FFBA33;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6A4029;
+
+ }
+ .container-payment .card-content-container .summary-card{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border: solid #E5E5E5;
+    border-radius: 20px;
+    width: 50%;
+    min-width: 350px;
+    margin-right: 30px;
+ }
+ .container-payment .card-content-container .summary-card .item-container{
+     display: flex;
+     flex-direction: row;
+     padding: 20px;
+  }
+ .container-payment .card-content-container .summary-card .item-container img{ 
+    border-radius: 15px;
+    max-width: 80px;
+    max-height: 80px;
+ }
+ .container-payment .card-content-container .summary-card .item-container .item-desc{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+    margin-left: 20px;
+  }
+  .container-payment .card-content-container .summary-card .item-container .price{ 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    /* identical to box height */
+    
+    color: #000000;
+    align-self: center;
+    margin-left: auto;
+  }
+  .container-payment .card-content-container .summary-card .item-menu {
+      overflow-y: scroll;
+      max-height: 300px;
+  }
+  .container-payment .card-content-container .summary-card .footer-container {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 50px;
+  }
+  .container-payment .card-content-container .summary-card .footer-container .info-container{
+      display: flex;
+      flex-direction: row;
+   }
+   #ml-auto {
+       text-align: right;
+       margin-right: 50px;
+       display: inline;
+       margin-left: auto;
+
+   }
+   .container-payment .card-content-container .summary-card .footer-container .total-price{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #362115;
+    }
+    #total-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #362115;
+    }
+    @media only screen and  (max-width:768px){
+        .container-payment {
+            
+            padding: 20px;
+            padding-top: 5rem;
+        }
+       
+        .container-payment .card-content-container {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            
+        }
+        .container-payment .card-content-container .summary-card{
+            width: 100%;
+         }
+        .container-payment .card-content-container .user-order-card{
+            max-width: 100%;
+            margin-left: 0px;
+        }
+        .container-payment .card-content-container .user-order-card .container{
+            min-width: 100%;
+         }
+         div .slide-btn {
+             width: 100%;
+          }
+      }
+      @media only screen and  (max-width:425px){
+        .container-payment {
+            padding: 0px;
+            padding-top: 2rem;
+        }
+        .container-payment .card-content-container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            
+        }
+      }
+      @media only screen and  (max-width:375px){
+        .container-payment {
+            padding: 0px;
+            padding-top: 2rem;
+        }
+        .container-payment .card-content-container {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            
+        }
+      }
+       @media only screen and  (max-width:320px){
+        .container-payment {
+            padding: 0px;
+            padding-top: 2rem;
+        }
+        .container-payment .card-content-container {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            
+        }
+        .container-payment .card-content-container .summary-card{
+            min-width: 20%;
+         }
+      }
+    

@@ -1,0 +1,655 @@
+@media (min-width: 769px){  
+.manageAdmBg{		width:100%;
+			height: 100%;
+			float:right;
+			}
+.manageAdmBgLayer2	{width:100%;
+			height: 100%;
+			float:right;}
+
+
+
+
+
+.manageAdmCaption{		font-family: Rubik;
+					font-style: normal;
+					font-weight: bold;
+					font-size:2.5em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:-80% 0 4% 10%;
+			}
+			.formOrder{	background-color: white;
+			width:30%;
+			border-radius: 10px;
+			padding: 3%;
+			margin: 0 0 0 10%;
+			}
+								.manageAdm-custName{	text-align: center;
+														margin: 5% 0 15% 0 ;
+														font-family: Poppins;
+														font-style: normal;
+														font-weight: bold;
+														font-size: 1.2em;
+														color: #362115;
+														}
+								.TableNum{						font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.5em;
+																color: #362115;}
+								.Order-MenuDesc{width:100%;
+															display: flex;
+															margin:10% 0 0% 0;
+														}
+											.Order-MenuPic{width:6%;
+															position: absolute;
+														}
+											.Order-MenuName{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 1em;
+																float:left;
+																margin-left: 30%;
+																}
+											.Order-MenuPrice{
+																font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 1em;
+																float:left;
+																position: absolute;
+																margin:2% 0% 0  20%;
+											}
+											.Order-Desc{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.8em;
+																color: #362115;
+																margin:10% 0 0 0;
+																
+																}
+											.Order-DescPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.8em;
+																color: #362115;
+																margin:10% 0 5% 35%;
+																
+																}
+
+											.Order-Total{		font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 0 0;
+														}
+
+											.Order-TotalPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 10% 35%;
+														}
+											.slideOrder{background: #FFBA33;
+															width:30%;
+															padding: 1% 0%;
+															font-family: Poppins;
+															font-style: normal;
+															font-weight: normal;
+															font-size: 1em;
+															text-align: center;
+															color: #6A4029;
+															margin: 3% 0 0 10%;
+															border-radius: 25px;
+															position: absolute;
+														}
+.manage-PayMeth{			font-family: Poppins;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 1.3em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:-40% 0 4% 57%;
+					position: absolute;
+				}
+.form-PayMethod{	background-color: white;
+				width:30%;
+				border-radius: 10px;
+				padding: 2% 1% 1% 1%;
+				position: absolute;
+				margin:-35% 21% 0  55%;
+			}
+.Order-payIcon{	height: 3vw;
+			width:3vw;
+			padding:2%;
+			border-radius: 5px;
+			margin: -1% 2% ;
+}
+.Orderpay-Method{font-family: Poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 1em;
+			color: #000000;
+			text-align: center
+		}
+#icon-card{background: #F47B0A;}
+#icon-bank{background-color: #895537;}
+#icon-cod{background-color: #FFBA33;}
+
+.buttomConfirm{	background: #6A4029;
+				color:white;
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1.2em;
+				text-align: center;
+				box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+				border-radius: 10px;
+				width:30%;
+				border:none;
+				height: 5vw;
+				position: absolute;
+				margin:-17% 0% 5% 55%;
+				position: absolute;
+			}
+.order-wrap{display: flex;
+margin-bottom: 6%;}
+}
+
+
+
+
+@media (max-width: 768px) and (min-width: 678px){  
+.manageAdmBg{		width:100%;
+			height: 100%;
+			float:right;
+			}
+.manageAdmBgLayer2	{width:100%;
+			height: 100%;
+			position: absolute;}
+
+
+
+
+
+.manageAdmCaption{		font-family: Rubik;
+					font-style: normal;
+					font-weight: bold;
+					font-size:2em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:2% 0 2% 10%;
+			}
+			.formOrder{	background-color: white;
+			width:40%;
+			border-radius: 10px;
+			padding: 3%;
+			margin: 0 0 0 10%;
+			}
+								.manageAdm-custName{	text-align: center;
+														margin: 5% 0 15% 0 ;
+														font-family: Poppins;
+														font-style: normal;
+														font-weight: bold;
+														font-size: 1.2em;
+														color: #362115;
+														}
+								.TableNum{						font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.5em;
+																color: #362115;}
+								.Order-MenuDesc{width:100%;
+															display: flex;
+															margin:10% 0 0% 0;
+														}
+											.Order-MenuPic{width:6%;
+															position: absolute;
+														}
+											.Order-MenuName{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.7em;
+																float:left;
+																margin-left: 30%;
+																}
+											.Order-MenuPrice{
+																font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.7em;
+																float:left;
+																position: absolute;
+																margin:2% 0% 0  30%;
+											}
+											.Order-Desc{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.8em;
+																color: #362115;
+																margin:10% 0 0 0;
+																
+																}
+											.Order-DescPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.8em;
+																color: #362115;
+																margin:10% 0 5% 35%;
+																
+																}
+
+											.Order-Total{		font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 0 0;
+														}
+
+											.Order-TotalPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 10% 35%;
+														}
+											.slideOrder{background: #FFBA33;
+															width:40%;
+															padding: 2% 0%;
+															font-family: Poppins;
+															font-style: normal;
+															font-weight: normal;
+															font-size: 0.7em;
+															text-align: center;
+															color: #6A4029;
+															margin: 3% 0 0 10%;
+															border-radius: 25px;
+															position: absolute;
+														}
+.manage-PayMeth{			font-family: Poppins;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 1.3em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:-40% 0 4% 57%;
+					position: absolute;
+				}
+.form-PayMethod{	background-color: white;
+				width:30%;
+				border-radius: 10px;
+				padding: 2% 1% 1% 1%;
+				position: absolute;
+				margin:-35% 21% 0  55%;
+			}
+.Order-payIcon{	height: 3vw;
+			width:3vw;
+			padding:2%;
+			border-radius: 5px;
+			margin: -1% 2% ;
+}
+.Orderpay-Method{font-family: Poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 1em;
+			color: #000000;
+			text-align: center
+		}
+#icon-card{background: #F47B0A;}
+#icon-bank{background-color: #895537;}
+#icon-cod{background-color: #FFBA33;}
+
+.buttomConfirm{	background: #6A4029;
+				color:white;
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1.2em;
+				text-align: center;
+				box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+				border-radius: 10px;
+				width:30%;
+				border:none;
+				height: 5vw;
+				position: absolute;
+				margin:-17% 0% 5% 55%;
+				position: absolute;
+			}
+.order-wrap{display: flex;
+margin-bottom: 6%;}
+}
+
+
+
+@media (max-width: 425px) and (min-width: 321px){  
+.manageAdmBg{		width:100%;
+			height: 150%;
+			position: absolute;
+			}
+.manageAdmBgLayer2	{width:100%;
+			height: 150%;
+
+			}
+
+
+
+
+
+.manageAdmCaption{		font-family: Rubik;
+					font-style: normal;
+					font-weight: bold;
+					font-size:1em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:2% 0 2% 10%;
+			}
+			.formOrder{	background-color: white;
+			width:80%;
+			border-radius: 10px;
+			padding: 3%;
+			margin: 10% 0 0 10%;
+			position: absolute;
+			}
+								.manageAdm-custName{	text-align: center;
+														margin: 5% 0 10% 0 ;
+														font-family: Poppins;
+														font-style: normal;
+														font-weight: bold;
+														font-size: 1.1em;
+														color: #362115;
+														}
+								.TableNum{						font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.8em;
+																color: #362115;}
+								.Order-MenuDesc{width:100%;
+															display: flex;
+															margin:5% 0 0% 0;
+														}
+											.Order-MenuPic{width:18%;
+															position: absolute;
+														}
+											.Order-MenuName{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.9em;
+																float:left;
+																margin-left: 25%;
+																}
+											.Order-MenuPrice{
+																font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.9em;
+																position: absolute;
+																margin:2% 0% 0  65%;
+											}
+											.Order-Desc{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.8em;
+																color: #362115;
+																margin:5% 0 0 5%;
+																
+																}
+											.Order-DescPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.8em;
+																color: #362115;
+																margin:5% 0 0% 45%;
+																
+																}
+
+											.Order-Total{		font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 0 5%;
+														}
+
+											.Order-TotalPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 5% 40%;
+														}
+											.slideOrder{background: #FFBA33;
+															width:80%;
+															padding: 2% 0%;
+															font-family: Poppins;
+															font-style: normal;
+															font-weight: normal;
+															font-size: 0.8em;
+															text-align: center;
+															color: #6A4029;
+															margin: 115% 0 0 10%;
+															border-radius: 20px;
+															position: absolute;
+														}
+.manage-PayMeth{			font-family: Poppins;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 1.2em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:130% 0 4% 25%;
+					position: absolute;
+										
+				}
+.form-PayMethod{	background-color: white;
+				width:80%;
+				border-radius: 10px;
+				padding: 2% 1% 1% 1%;
+				margin:140% 0% 0  10%;
+				position: relative;
+				
+			}
+.Order-payIcon{	
+			width:12%;
+			padding:2%;
+			border-radius: 5px;
+			margin: -1% 2% ;
+}
+.Orderpay-Method{font-family: Poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 0.8em;
+			color: #000000;
+			text-align: center
+		}
+#icon-card{background: #F47B0A;}
+#icon-bank{background-color: #895537;}
+#icon-cod{background-color: #FFBA33;}
+
+.buttomConfirm{	background: #6A4029;
+				color:white;
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1em;
+				text-align: center;
+				box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+				border-radius: 5px;
+				width:80%;
+				border:none;
+				height: 15vw;
+				position: absolute;
+				margin:5% 0% 5% 10%;
+			}
+.order-wrap{display: flex;
+margin-bottom: 6%;}
+}
+
+
+
+
+@media (max-width: 320px){  
+.manageAdmBg{		width:100%;
+			height: 130%;
+			position: absolute;
+			}
+.manageAdmBgLayer2	{width:100%;
+			height: 130%;
+
+			}
+
+
+
+
+
+.manageAdmCaption{		font-family: Rubik;
+					font-style: normal;
+					font-weight: bold;
+					font-size:1em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:2% 0 2% 10%;
+			}
+			.formOrder{	background-color: white;
+			width:80%;
+			border-radius: 10px;
+			padding: 3%;
+			margin: 10% 0 0 10%;
+			position: absolute;
+			}
+								.manageAdm-custName{	text-align: center;
+														margin: 5% 0 10% 0 ;
+														font-family: Poppins;
+														font-style: normal;
+														font-weight: bold;
+														font-size: 1em;
+														color: #362115;
+														}
+								.TableNum{						font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.7em;
+																color: #362115;}
+								.Order-MenuDesc{width:100%;
+															display: flex;
+															margin:5% 0 0% 0;
+														}
+											.Order-MenuPic{width:12%;
+															position: absolute;
+														}
+											.Order-MenuName{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.7em;
+																float:left;
+																margin-left: 30%;
+																}
+											.Order-MenuPrice{
+																font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.5em;
+																position: absolute;
+																margin:2% 0% 0  65%;
+											}
+											.Order-Desc{		font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.6em;
+																color: #362115;
+																margin:5% 0 0 5%;
+																
+																}
+											.Order-DescPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: normal;
+																font-size: 0.6em;
+																color: #362115;
+																margin:5% 0 5% 40%;
+																
+																}
+
+											.Order-Total{		font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 0 0;
+														}
+
+											.Order-TotalPrice{	font-family: Poppins;
+																font-style: normal;
+																font-weight: bold;
+																font-size: 1em;
+																color: #362115;
+																margin:0 0% 10% 35%;
+														}
+											.slideOrder{background: #FFBA33;
+															width:80%;
+															padding: 2% 0%;
+															font-family: Poppins;
+															font-style: normal;
+															font-weight: normal;
+															font-size: 0.8em;
+															text-align: center;
+															color: #6A4029;
+															margin: 120% 0 0 10%;
+															border-radius: 25px;
+															position: absolute;
+														}
+.manage-PayMeth{			font-family: Poppins;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 1.2em;
+					color: #FFFFFF;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+					margin:135% 0 4% 20%;
+					position: absolute;
+										
+				}
+.form-PayMethod{	background-color: white;
+				width:80%;
+				border-radius: 10px;
+				padding: 2% 1% 1% 1%;
+				margin:150% 0% 0  10%;
+				position: relative;
+				
+			}
+.Order-payIcon{	
+			width:12%;
+			padding:2%;
+			border-radius: 5px;
+			margin: -1% 2% ;
+}
+.Orderpay-Method{font-family: Poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 0.8em;
+			color: #000000;
+			text-align: center
+		}
+#icon-card{background: #F47B0A;}
+#icon-bank{background-color: #895537;}
+#icon-cod{background-color: #FFBA33;}
+
+.buttomConfirm{	background: #6A4029;
+				color:white;
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1em;
+				text-align: center;
+				box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+				border-radius: 5px;
+				width:80%;
+				border:none;
+				height: 15vw;
+				position: absolute;
+				margin:5% 0% 5% 10%;
+			}
+.order-wrap{display: flex;
+margin-bottom: 6%;}
+}

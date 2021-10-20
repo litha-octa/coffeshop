@@ -1,0 +1,32 @@
+import React, { Component } from 'react';
+import '../components/History/History.css';
+import MiniTableMenu from '../components/History/MiniTableMenu';
+import { getHistory } from '../redux/actions/history';
+import { connect } from 'react-redux';
+
+class History extends Component {
+    render() {
+        return (
+            <div>
+                <img
+                    src='assets/HistoryBg.png'
+                    className='body-history'
+                    alt='HistoryBg'
+                />
+                <div className='contentHistory'>
+                    <div className='titleHistory'>
+                        Let’s see what you have bought!
+                    </div>
+                    <div className='subtitleHistory'>Select item to delete</div>
+                    <div id='selectAllHistory'>Select All</div>
+
+                    <div className='MiniTableMenu'>
+                        <MiniTableMenu />
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default History;

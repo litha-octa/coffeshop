@@ -1,0 +1,1000 @@
+@media (min-width: 769px) {
+  .payBg {
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+  .bgLayer2 {
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+
+  .CheckOutItem {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: -80% 0 4% 10%;
+  }
+  .formBill {
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 0 0 0 10%;
+  }
+
+  .orderSum {
+    text-align: center;
+    margin: 5% 0 15% 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #362115;
+  }
+  .bill-MenuDesc {
+    width: 100%;
+    display: flex;
+    margin: 10% 0 -8% 0;
+  }
+  .bill-MenuPic {
+    width: 5%;
+    position: absolute;
+  }
+  .bill-MenuName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    float: left;
+    margin-left: 30%;
+  }
+  .bill-MenuPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    float: left;
+    position: absolute;
+    margin: 2% 0% 0 20%;
+  }
+  .bill-Desc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #362115;
+    margin: 10% 0 0 0;
+  }
+  .bill-DescPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #362115;
+    margin: 10% 0 5% 35%;
+  }
+
+  .bill-Total {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #362115;
+    margin: 0 0% 0 0;
+  }
+
+  .bill-TotalPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #362115;
+    margin: 0 0% 10% 35%;
+  }
+
+  .AddressDetails {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: -50% 0 4% 55%;
+  }
+  .formAddress {
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    padding: 2%;
+    float: right;
+    margin: -3% 15% 0 0%;
+  }
+  .adrs-DelivTo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000000;
+  }
+  .adrs-City {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #000000;
+  }
+  .line {
+    margin-top: -4%;
+  }
+  .adrs-wrap {
+    display: flex;
+  }
+
+  .PayMeth {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 20% 0 4% 55%;
+  }
+  .formPayMethod {
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    padding: 3%;
+    float: right;
+    margin: -3% 15% 0 0%;
+  }
+  .payIcon {
+    width: 2.8vw;
+    padding: 2%;
+    border-radius: 5px;
+    margin: -1% 2%;
+  }
+  .pay-Method {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #000000;
+    text-align: center;
+  }
+  #icon-card {
+    background: #f47b0a;
+  }
+  #icon-bank {
+    background-color: #895537;
+  }
+  #icon-cod {
+    background-color: #ffba33;
+  }
+
+  .confirm-pay {
+    background: #6a4029;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+    height: 5vw;
+    margin: 5% 0 0 55%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 659px) {
+  .payBg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: right;
+  }
+  .bgLayer2 {
+    position: relative;
+    bottom: 0;
+    padding: 3%;
+  }
+
+  .CheckOutItem {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 0% 0 2% 10%;
+  }
+  .formBill {
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin: 0 0 0 5%;
+    position: absolute;
+  }
+
+  .orderSum {
+    text-align: center;
+    margin: 15% 0 15% 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #362115;
+  }
+  .bill-MenuDesc {
+    width: 100%;
+    display: flex;
+    margin: 10% 0 -8% 0;
+  }
+  .bill-MenuPic {
+    width: 15%;
+    position: absolute;
+  }
+  .bill-MenuName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    float: left;
+    margin-left: 25%;
+  }
+  .bill-MenuPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    float: left;
+    position: absolute;
+    margin: 2% 0% 0 65%;
+  }
+  .bill-Desc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #362115;
+    margin: 10% 0 0 0;
+  }
+  .bill-DescPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #362115;
+    margin: 10% 0 5% 40%;
+  }
+
+  .bill-Total {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #362115;
+    margin: 5% 0% 0 0;
+  }
+
+  .bill-TotalPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #362115;
+    margin: 5% 0% 20% 25%;
+  }
+
+  .AddressDetails {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 0% 0 4% 55%;
+  }
+  .formAddress {
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+    padding: 1%;
+    float: right;
+    position: absolute;
+    margin: -3% 0% 0 50%;
+  }
+  .adrs-DelivTo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: #000000;
+  }
+  .adrs-City {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #000000;
+  }
+  .line {
+    margin-top: -4%;
+  }
+  .adrs-wrap {
+    display: flex;
+  }
+
+  .PayMeth {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 13% 0 4% 52%;
+    position: absolute;
+  }
+  .formPayMethod {
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+    padding: 2% 1% 1% 1%;
+    float: right;
+    margin: 17% 21% 0 0%;
+  }
+  .payIcon {
+    height: 3vw;
+    width: 3vw;
+    padding: 2%;
+    border-radius: 5px;
+    margin: -1% 2%;
+  }
+  .pay-Method {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    color: #000000;
+    text-align: center;
+  }
+  #icon-card {
+    background: #f47b0a;
+  }
+  #icon-bank {
+    background-color: #895537;
+  }
+  #icon-cod {
+    background-color: #ffba33;
+  }
+
+  .confirm-pay {
+    background: #6a4029;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.7em;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+    border-radius: 10px;
+    width: 25%;
+    border: none;
+    height: 5vw;
+    margin: 2% 0% 5% 54%;
+  }
+}
+
+@media (max-width: 658px) and (min-width: 426px) {
+  .payBg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .bgLayer2 {
+    position: relative;
+    bottom: 0;
+  }
+
+  .CheckOutItem {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    padding-top: 10%;
+    margin: 0% 0 2% 10%;
+  }
+  .formBill {
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin: 0 0 0 5%;
+    position: absolute;
+  }
+
+  .orderSum {
+    text-align: center;
+    margin: 10% 0 10% 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.5em;
+    color: #362115;
+  }
+  .bill-MenuDesc {
+    width: 100%;
+    display: flex;
+    margin: 10% 0 -8% 0;
+  }
+  .bill-MenuPic {
+    width: 12%;
+    position: absolute;
+  }
+  .bill-MenuName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    float: left;
+    margin-left: 20%;
+  }
+  .bill-MenuPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    float: left;
+    position: absolute;
+    margin: 2% 0% 0 60%;
+  }
+  .bill-Desc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #362115;
+    margin: 10% 0 0 0;
+  }
+  .bill-DescPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #362115;
+    margin: 10% 0 5% 25%;
+  }
+
+  .bill-Total {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #362115;
+    margin: 5% 0% 0 0;
+  }
+
+  .bill-TotalPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #362115;
+    margin: 5% 0% 20% 19%;
+  }
+
+  .AddressDetails {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 0% 0 4% 50%;
+  }
+  .formAddress {
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    padding: 1%;
+    float: right;
+    position: absolute;
+    margin: -3% 0% 0 50%;
+  }
+  .adrs-DelivTo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.5em;
+    color: #000000;
+  }
+  .adrs-City {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #000000;
+  }
+  .line {
+    margin-top: -4%;
+  }
+  .adrs-wrap {
+    display: flex;
+  }
+
+  .PayMeth {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 13% 0 4% 52%;
+    position: absolute;
+  }
+  .formPayMethod {
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    padding: 2% 1% 1% 1%;
+    float: right;
+    margin: 17% 20% 0 0%;
+  }
+  .payIcon {
+    height: 3vw;
+    width: 3vw;
+    padding: 2%;
+    border-radius: 5px;
+    margin: -1% 2%;
+  }
+  .pay-Method {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 5% 0;
+  }
+  #icon-card {
+    background: #f47b0a;
+  }
+  #icon-bank {
+    background-color: #895537;
+  }
+  #icon-cod {
+    background-color: #ffba33;
+  }
+
+  .confirm-pay {
+    background: #6a4029;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.4em;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+    border-radius: 4px;
+    width: 30%;
+    border: none;
+    height: 5vw;
+    margin: 2% 0% 5% 50%;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+  .payBg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .bgLayer2 {
+    position: relative;
+    bottom: 0;
+  }
+
+  .CheckOutItem {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    padding-top: 10%;
+    margin: 0% 0 2% 10%;
+  }
+  .formBill {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin: 0 0 0 5%;
+    position: absolute;
+  }
+
+  .orderSum {
+    text-align: center;
+    margin: 10% 0 10% 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #362115;
+  }
+  .bill-MenuDesc {
+    width: 100%;
+    display: flex;
+    margin: 10% 0 0% 0;
+  }
+  .bill-MenuPic {
+    width: 15%;
+    position: absolute;
+  }
+  .bill-MenuName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    float: left;
+    margin-left: 20%;
+  }
+  .bill-MenuPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    float: left;
+    position: absolute;
+    margin: 2% 0% 0 60%;
+  }
+  .bill-Desc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #362115;
+    margin: 10% 0 0 0;
+  }
+  .bill-DescPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #362115;
+    margin: 10% 0 5% 40%;
+  }
+
+  .bill-Total {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #362115;
+    margin: 5% 0% 0 0;
+  }
+
+  .bill-TotalPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #362115;
+    margin: 5% 0% 20% 40%;
+  }
+
+  .AddressDetails {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 0% 0 4% 60%;
+  }
+  .formAddress {
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    padding: 4% 1.5%;
+    position: absolute;
+    margin: -3% 0% 0 57%;
+  }
+  .adrs-DelivTo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: #000000;
+  }
+  .adrs-City {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #000000;
+  }
+  .line {
+    margin-top: -4%;
+  }
+  .adrs-wrap {
+    display: flex;
+  }
+
+  .PayMeth {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 45% 0 4% 60%;
+    position: absolute;
+  }
+  .formPayMethod {
+    background-color: white;
+    width: 35%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 4% 1%;
+    float: right;
+    margin: 50% 5% 0 0%;
+  }
+  .payIcon {
+    height: 3vw;
+    width: 3vw;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 0% 1%;
+  }
+  .pay-Method {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 0% 0;
+  }
+  #icon-card {
+    background: #f47b0a;
+  }
+  #icon-bank {
+    background-color: #895537;
+  }
+  #icon-cod {
+    background-color: #ffba33;
+  }
+
+  .confirm-pay {
+    background: #6a4029;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+    border-radius: 4px;
+    width: 80%;
+    border: none;
+    height: 10vw;
+    margin: 12% 0% 20% 10%;
+  }
+  .spaceMeth {
+    margin: -5% 0 0 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .payBg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .bgLayer2 {
+    position: relative;
+    bottom: 0;
+  }
+
+  .CheckOutItem {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    padding-top: 10%;
+    margin: 0% 0 2% 10%;
+  }
+  .formBill {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin: 0 0 0 5%;
+    position: absolute;
+  }
+
+  .orderSum {
+    text-align: center;
+    margin: 10% 0 10% 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #362115;
+  }
+  .bill-MenuDesc {
+    width: 100%;
+    display: flex;
+    margin: 10% 0 0% 0;
+  }
+  .bill-MenuPic {
+    width: 15%;
+    position: absolute;
+  }
+  .bill-MenuName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    float: left;
+    margin-left: 20%;
+  }
+  .bill-MenuPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.6em;
+    float: left;
+    position: absolute;
+    margin: 2% 0% 0 60%;
+  }
+  .bill-Desc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #362115;
+    margin: 10% 0 0 0;
+  }
+  .bill-DescPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #362115;
+    margin: 10% 0 5% 40%;
+  }
+
+  .bill-Total {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #362115;
+    margin: 5% 0% 0 0;
+  }
+
+  .bill-TotalPrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: #362115;
+    margin: 5% 0% 20% 40%;
+  }
+
+  .AddressDetails {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 0% 0 4% 60%;
+  }
+  .formAddress {
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    padding: 4% 1.5%;
+    position: absolute;
+    margin: -3% 0% 0 57%;
+  }
+  .adrs-DelivTo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.5em;
+    color: #000000;
+  }
+  .adrs-City {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.5em;
+    color: #000000;
+  }
+  .line {
+    margin-top: -4%;
+  }
+  .adrs-wrap {
+    display: flex;
+  }
+
+  .PayMeth {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin: 35% 0 4% 60%;
+    position: absolute;
+  }
+  .formPayMethod {
+    background-color: white;
+    width: 35%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 4% 1%;
+    float: right;
+    margin: 50% 5% 0 0%;
+  }
+  .payIcon {
+    height: 4vw;
+    width: 4vw;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 0% 1%;
+  }
+  .pay-Method {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 0% 0;
+  }
+  #icon-card {
+    background: #f47b0a;
+  }
+  #icon-bank {
+    background-color: #895537;
+  }
+  #icon-cod {
+    background-color: #ffba33;
+  }
+
+  .confirm-pay {
+    background: #6a4029;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+    border-radius: 4px;
+    width: 80%;
+    border: none;
+    height: 10vw;
+    margin: 12% 0% 20% 10%;
+  }
+  .spaceMeth {
+    margin: -5% 0 0 0;
+  }
+}

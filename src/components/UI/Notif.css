@@ -1,0 +1,109 @@
+.notif-card-message.card {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+   width: 100%;
+    width: auto;
+    height: max-content;
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
+    border: none;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.247);
+    min-width: 230px;
+    margin: 0 1rem 1rem 1rem;
+    color:rgb(25, 26, 48);
+    top: 0;
+}
+
+.notif-card-message.card > .notif-card-left {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notif-card-message.card > .notif-card-right {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notif-card-message.card > .notif-card-main {
+    width: 80%;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    padding-bottom: 1rem;
+    /* text-align: center; */
+}
+
+.notif-card-main > .notif-card-title {
+    font-weight: bold;
+}
+.notif-card-message.card > .notif-card-left > img {
+    width: 30px;
+}
+.notif-card-message.card > .notif-card-right > img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.line-bottom-notif-card {
+    width: 100%;
+    height: 0.5rem;
+    box-shadow: 0px 6px 20px rgba(137, 85, 55, 0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.line-bottom-notif-card.error {
+    background: #6a2929;
+}
+.line-bottom-notif-card.success {
+    background: #296a51;
+}
+.line-bottom-notif-card.warning {
+    background:#634509;
+}
+
+.notif-card-message.card.error {
+    background-color: #cfadad;
+}
+.notif-card-message.card.success {
+    background-color: #88b788;
+}
+.notif-card-message.card.warning {
+    background-color: #f5c361;
+}
+
+.notif-card-main>a{
+    text-decoration: none;
+    color: #086177;
+    font-weight: bold;
+    display: inline;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:1040px) {
+    .notif-card-message.card > .notif-card-main {
+        font-size: small;
+    }
+}
+
+
+
+/* ADDITIONAL CLASS CUSTOM */
+.notif-card-message.card.forgot-pass-alert {
+    margin: 0 1rem -0.7rem 1rem;
+}

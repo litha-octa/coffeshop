@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.chat-container{
+    background-image: url('../../assets/images/chat-background.png');
+    padding: 5rem;
+    min-width: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+#profile-line {
+    border: 1px solid #D6D9DC;
+}
+hr {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 80%;
+    border-radius: 5px;
+}
+.chat-aside-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 30px;
+    padding-top: 5rem;
+}
+.chat-aside-container .left-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 350px;
+    max-width: 40%;
+    border-radius: 20px;
+    padding-bottom: 20%;
+    background: rgba(106, 64, 41, 1); 
+}
+
+.chat-aside-container .left-aside .text-no-chat{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 4rem;
+ }
+.chat-aside-container .left-aside .search .input-search{
+    background-image: url('../../assets/images/search-icon.png');
+    background-position: 20px 12px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 300px;
+    min-height: 50px;
+    text-indent: 60px;
+}
+.chat-aside-container .left-aside .text-header{
+    padding-top: 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif
+}
+
+.chat-aside-container .left-aside .message{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.chat-aside-container .left-aside .message .round-pic{
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 70px;
+}
+.chat-aside-container .left-aside .message .sender-name {
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+  .chat-aside-container .left-aside .message .message-content {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+ #date-content{ 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    color: #9F9F9F;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  #date-content-sender{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    color: #9F9F9F;
+    text-align: left;
+    width: 50px;
+    
+  } 
+  #hr-color {
+    border: 1px solid #C4C4C4;
+    margin-top: 30px;
+  }
+
+.chat-aside-container .chat-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-left: 2%;
+    margin-right: 50px;
+    flex-grow: 1;
+    min-width: 300px;
+    flex: 1;
+}
+#admin-chat-card {
+    margin-left: 0px;
+}
+
+.chat-aside-container .chat-card .container{
+    display: flex;
+    background: white;
+    padding-top: 2rem;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.chat-aside-container .chat-card .send{
+    background: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#send-bottom {
+    padding-top: 10rem;
+
+}
+.chat-aside-container .chat-card .send .photos-icon{
+    margin-right: 10px;
+}
+.chat-aside-container .chat-card .send .send-text{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 75%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+}
+.send-text:focus{
+    background-color: rgb(234, 236, 240);
+}
+.chat-aside-container .chat-card .container .text-no-chat{
+    color: rgba(159, 159, 159, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 80px;
+    text-align: justify;
+}
+.chat-aside-container .chat-card .container .text-header{
+   margin-left: 30px;
+   margin-bottom: 60px;
+}
+.chat-aside-container .chat-card .container .text-header span{
+    color: rgba(79, 86, 101, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif
+ }
+
+ .chat-aside-container .chat-card .container .message{
+    display: flex;
+    padding-left: 30px;
+}
+
+.chat-aside-container .chat-card .container .message .round-pic{
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 70px;
+}
+.chat-aside-container .chat-card .container .message .sender-name {
+    margin-left: 20px;
+    color: rgba(79, 86, 101, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+#sender {
+    text-align: right;
+    margin-right: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+  .chat-aside-container .chat-card .container .message .message-content {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgba(79, 86, 101, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    
+  }
+ 
+  @media only screen and  (max-width:768px){
+    .chat-aside-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .chat-aside-container .left-aside {
+        min-width: 100%;
+        border-radius: 20px;
+        padding-bottom: 20%;
+        background: rgba(106, 64, 41, 1); 
+    }
+    .chat-aside-container .left-aside .message .message-content {
+        width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+   
+    .chat-aside-container .chat-card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+        margin-left: 2%;
+        margin-right: 5px;
+    }
+    .chat-aside-container .left-aside .search .input-search{
+        width: 100%;
+    }
+}
+
+@media only screen and  (max-width:425px){
+    .chat-aside-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .chat-aside-container .left-aside {
+        min-width: 100%;
+        border-radius: 20px;
+        padding-bottom: 20%;
+        background: rgba(106, 64, 41, 1); 
+    }
+    .chat-aside-container .left-aside .message .message-content {
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+}
+@media only screen and  (max-width:375px){
+    .chat-aside-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .chat-aside-container .left-aside {
+        min-width: 100%;
+        border-radius: 20px;
+        padding-bottom: 20%;
+        background: rgba(106, 64, 41, 1); 
+    }
+    .chat-aside-container .chat-card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+        margin-left: 2%;
+        margin-right: 10%;
+        flex-grow: 1;
+    }
+    .chat-aside-container .left-aside .message .message-content {
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+}
+@media only screen and  (max-width:320px){
+    .chat-aside-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 6px;
+    }
+    .chat-aside-container .left-aside {
+        min-width: 100%;
+        border-radius: 20px;
+        padding-bottom: 20%;
+        background: rgba(106, 64, 41, 1); 
+    }
+    .chat-aside-container .chat-card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+        margin-left: 2%;
+        margin-right: 10%;
+        flex-grow: 1;
+    }
+    .chat-aside-container .left-aside .message .message-content {
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+}

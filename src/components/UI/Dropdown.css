@@ -1,0 +1,19 @@
+.multiselect-container:after{
+    /* font-family: "FontAwesome";
+    content:'\f078'; */
+    position: absolute;
+    right:6%;
+    top:20%;
+    font-size: 2rem;
+    cursor: pointer;
+    content: url('../../assets/images/chevron-icon.png');
+    margin-right:1%
+
+}
+#multiselectContainerReact{
+    margin-top: 3rem !important;
+}
+
+.lhyQmCtWOINviMz0WG_gr,._3vt7_Mh4hRCFbp__dFqBCI li:hover{
+    background: #FFBA33 !important;
+}

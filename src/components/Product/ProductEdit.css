@@ -1,0 +1,313 @@
+.product-edit-container {
+    padding: 2rem 6rem;
+    overflow: hidden;
+    min-width: 320px;
+}
+.product-image-edit {
+    width: 33rem;
+    height: 49rem;
+}
+
+.delete-button2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 0.5rem solid #ffba33;
+    margin-left: 1rem;
+    cursor: pointer;
+    position: relative;
+    right: -26rem;
+    top: 6rem;
+}
+
+.delivery-txt {
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+
+}
+
+.product-edit-container > .row > .left-side {
+    padding: 1rem;
+}
+.product-edit-container > .row > .right-side {
+    padding: 1rem;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.edit-product-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: black;
+    background-color: transparent;
+}
+.edit-product-price.prepend {
+    padding-left: 5rem !important;
+}
+.edit-product-price.prepend,
+.edit-product-price.prepend > span {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: transparent;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.edit-product-desc {
+    background-color: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.stock-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.react-numeric-input > .input-num-order {
+    height: auto;
+}
+.stock-section > .input-num-order {
+    height: 100%;
+}
+.del-product{
+    font-weight: 500;
+    position: relative;
+    right: 0;
+    bottom: -2rem;
+    left :80%
+
+}
+
+@media only screen and (max-width: 1360px) {
+    .product-image-edit {
+        width: 30rem;
+        height: auto;
+    }
+
+    .delete-button2 {
+        right: -23rem;
+        top: 6rem;
+    }
+}
+@media only screen and (max-width: 1270px) {
+    .product-image-edit {
+        width: 28rem;
+        height: auto;
+    }
+
+    .delete-button2 {
+        right: -22rem;
+        top: 6rem;
+    }
+}
+@media only screen and (max-width: 1170px) {
+    .product-edit-container {
+        padding: 2rem 4rem !important;
+    }
+    .product-image-edit {
+        width: 25rem;
+        height: auto;
+    }
+
+    .delete-button2 {
+        right: -18rem;
+        top: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1018px) {
+
+    .product-edit-container {
+        padding: 2rem !important;
+    }
+}
+@media only screen and (max-width: 910px) {
+    .product-image-edit {
+        width: 23rem;
+        height: auto;
+    }
+
+    .delete-button2 {
+        right: -16rem;
+        top: 6rem;
+    }
+    .edit-product-name {
+        font-size: 3rem;
+    }
+    .edit-product-price.prepend,
+    .edit-product-price.prepend > span {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 825px) {
+    .product-image-edit {
+        width: 20rem;
+        height: auto;
+    }
+
+    .delete-button2 {
+        right: -13.5rem;
+        top: 6rem;
+    }
+    .edit-product-name {
+        font-size: 3rem;
+    }
+    .product-edit-container > .row > .right-side{
+        padding-left: 2rem;
+    }
+}
+@media only screen and (max-width: 787px) {
+    .product-image-edit {
+        width: 18rem;
+        height: auto;
+    }
+
+    .delete-button2 {
+        right: -13rem;
+        top: 4.5rem;
+    }
+
+    .product-edit-container > .row > .right-side{
+        padding-left: 2rem;
+    }
+    .delete-button2 {
+        width: 50px;
+        height: 50px;
+        border: 0.3rem solid #ffba33;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .product-image-edit {
+        width: 16rem;
+        height: auto;
+    }
+
+    .edit-product-name {
+        font-size: 2.5rem;
+    }
+    .edit-product-price.prepend,
+    .edit-product-price.prepend > span {
+        font-size: 1.8rem;
+    }
+    .edit-product-desc{
+        font-size: 1rem;
+    }
+
+    .delete-button2 {
+        right: -11rem;
+        top: 4.5rem;
+    }
+
+    .product-edit-container > .row > .right-side{
+        padding-left: 1rem;
+    }
+    .delete-button2 {
+        width: 50px;
+        height: 50px;
+        border: 0.3rem solid #ffba33;
+    }
+    span.chip._7ahQImyV4dj0EpcNOjnwA,._3vt7_Mh4hRCFbp__dFqBCI input{
+        font-size: 1rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 641px) {
+    .product-image-edit {
+        width: 16rem;
+        height: auto;
+    }
+
+    .product-edit-container > .row > .left-side {
+        display: flex;
+        justify-content: space-evenly;
+       min-width: 100%;
+    }
+    .delivery-txt{
+        padding: 9rem 1rem;
+    }
+    asice.col .col .right-side{
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 514px) {
+    .product-image-edit {
+        width: 60%;
+        height:60%;
+        border-radius: 50%;
+    }
+
+    .product-edit-container > .row > .left-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .delivery-txt{
+        padding: 0rem;
+        margin-top: -5rem;
+    }
+    asice.col .col .right-side{
+        padding-top: 0;
+    }
+    .setting-product-image-section{
+        text-align: center;
+        height: min-content;
+    }
+    .delete-button2 {
+        right:-57%;
+        top: 60%;
+    }
+    .delivery-txt{
+        text-align: center;
+    }
+    .btn-order {
+        min-width: 100% !important;
+    }
+    .stock-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 495px) {
+    
+    .product-edit-container > .row > .left-side {
+        padding-top:0 ;
+        margin-top: -2rem;
+    }
+    .setting-product-image-section{
+        margin-bottom: 1rem;
+    }
+    .delivery-txt{
+        text-align: center;
+    }
+    .col.col.right-side{
+        padding: 0;
+    }
+    .edit-product-name {
+        font-size: 2rem;
+    }
+    .edit-product-price.prepend,
+    .edit-product-price.prepend > span {
+        font-size: 1.2rem;
+    }
+}
+/* @media only screen and (max-width: 472px) {
+    .delete-button2 {
+        right: -14rem;
+        top: 16rem;
+    }
+} */

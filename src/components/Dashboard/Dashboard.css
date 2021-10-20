@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+.dashboard-container {
+    background-color: #FFFFFF;
+    padding-top: 5rem;
+    padding: 30px;
+}
+.dashboard-container .button-container{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.dashboard-container .button-container .download-report{ 
+    background: #6A4029;
+    box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.6);
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+}
+.dashboard-container .button-container .share-report{ 
+    background: #6A4029;
+    box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.6);
+    border-radius: 20px;
+    width: 25%;
+    height: 40px;
+    margin-right: 50px;
+}
+.dashboard-container .card-content-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 30px;
+}
+.dashboard-container .text-header{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.dashboard-container .text-header-1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
+.dashboard-container .text-report{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-container .text-date{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    color: #7C828A;
+}
+.dashboard-container .date-header{
+    display: flex;
+    margin-bottom: 20px;
+    max-width: 50%;
+    max-height: 25px;
+    justify-content: space-evenly;
+}
+.dashboard-container .report-card{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border: solid #E5E5E5;
+    border-radius: 20px;
+    width: 60%;
+    min-width: 350px;
+    margin-right: 30px;
+}
+.dashboard-container .report-card .more-pic{
+    max-width: 35px;
+    max-height: 15px;
+    margin-left: 5%;
+}
+.dashboard-container .profile-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    flex: 1;
+    max-width: 30%;
+}
+.dashboard-container .profile-card .profile-admin{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.dashboard-container .profile-card .profile-admin .name-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+ }
+ .dashboard-container .profile-card .profile-admin .name-container .admin-name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000
+  }
+.dashboard-container .profile-card .profile-admin .admin-pic{
+    border-radius: 50px;
+    max-height: 80px;
+ }
+ .dashboard-container .profile-card .best-staff{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.dashboard-container .profile-card .best-staff .percentage{
+    align-self: center;
+ }
+.dashboard-container .profile-card .best-staff .sub-name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+ }
+ .dashboard-container .profile-card .best-staff .sub-message{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+.dashboard-container .profile-card .container{ 
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    border: solid #E5E5E5;
+    border-radius: 20px;
+}
+
+.dashboard-container .report-card .sub.chart-wrapper {
+    padding: 1rem;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* Simple responsivenss example */
+  @media only screen and  (max-width:768px){
+    .dashboard-container {
+        padding-top: 5rem;
+        padding: 20px;
+    }
+    .sub.chart-wrapper {
+      width: 96%;
+    }
+    .dashboard-container .card-content-container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+    .dashboard-container .profile-card{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .dashboard-container .report-card{
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: solid #E5E5E5;
+        border-radius: 20px;
+        width: 100%;
+        min-width: 0px;
+        margin-right: 30px;
+    }
+    .dashboard-container .profile-card .container{
+       max-width: 100%;
+     }
+     .dashboard-container .date-header{
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        max-width: 70%;
+        max-height: 25px;
+        justify-content: space-evenly;
+    }
+    #arrow {
+        margin-left: 30px;
+    }
+    
+  }
+  @media only screen and  (max-width:425px){
+    .dashboard-container .button-container .share-report{
+        height: 70px;
+    }
+  }
+  @media only screen and  (max-width:375px){
+    .dashboard-container .button-container .download-report{ 
+        padding: 5px;
+        height: 70px;
+    }
+  }
+   @media only screen and  (max-width:320px){
+    .dashboard-container {  
+        padding: 0px;
+        padding-top: 5rem;
+    }
+    .dashboard-container .button-container .download-report{ 
+        height: 70px;
+    }
+  }

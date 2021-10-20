@@ -1,0 +1,216 @@
+@media (min-width: 769px){  
+.containerPromo{width:100%;
+				display: flex;}
+									.leftPromo{width:50%;
+												margin: 0% 5% 0 3% ;}
+																	.rightPromo{width:50%;
+																				float:right;
+																				margin: 0 5% 0 0; }
+.addNewPromo{	font-family: Rubik;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 1em;
+				margin: 0 0 0 5%;
+			}
+.MenuNewPromo{	
+    color: #6A4029;
+    font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin:0 0 3% 0;
+}
+.dataPromo{		font-family: Rubik;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1.5rem;
+                margin:5% 0 0 0;
+				color: #6A4029; 
+			}
+.productSize{display: flex;
+            padding:5% 0 10% 0;
+            }
+
+}
+
+@media (max-width: 768px) and (min-width: 700px){  
+.containerPromo{width:100%;
+
+				}
+									.leftPromo{width:40%;
+											padding: 5% ; 
+												margin: 0% 0% 0 0% ;
+												position: absolute;
+												}
+																	.rightPromo{width:50%;
+																				float: right;
+																				margin: 0% 5% 0 45%;
+																				
+																				 }
+.addNewPromo{	font-family: Rubik;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 1em;
+				margin: 0 0 0 5%;
+			}
+.MenuNewPromo{	
+    color: #6A4029;
+    font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin:0 0 3% 0;
+}
+.dataPromo{		font-family: Rubik;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1.5rem;
+                margin:5% 0 0 0;
+				color: #6A4029; 
+			}
+.productSize{display: flex;
+            padding:5% 0 10% 0;
+            overflow-x: scroll;
+            }
+}
+
+
+
+@media (max-width: 700px) and (min-width: 426px){  
+.containerPromo{width:100%;
+
+				}
+									.leftPromo{width:100%;
+											padding: 5% ; 
+												margin: 0% 0% 0 0% ;
+												
+												}
+																	.rightPromo{width:80%;
+																				margin: 0% 10% 0 10%;
+																				
+																				 }
+.addNewPromo{	font-family: Rubik;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 1em;
+				margin: 0 0 0 5%;
+			}
+.MenuNewPromo{	
+    color: #6A4029;
+    font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin:0 0 3% 0;
+}
+.dataPromo{		font-family: Rubik;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1.5rem;
+                margin:5% 0 0 0;
+				color: #6A4029; 
+			}
+.productSize{display: flex;
+            padding:5% 0 10% 0;
+            overflow-x: scroll;
+            }
+}
+
+
+
+@media (max-width: 425px) and (min-width: 375px){  
+.containerPromo{width:100%;
+
+				}
+									.leftPromo{width:100%;
+											padding: 5% ; 
+												margin: 0% 0% 0 0% ;
+												
+												}
+																	.rightPromo{width:80%;
+																				margin: 0% 10% 0 10%;
+																				
+																				 }
+.addNewPromo{	font-family: Rubik;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 1em;
+				margin: 0 0 0 5%;
+			}
+.MenuNewPromo{	
+    color: #6A4029;
+    font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin:0 0 3% 0;
+}
+.dataPromo{		font-family: Rubik;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1.5rem;
+                margin:5% 0 0 0;
+				color: #6A4029; 
+			}
+.productSize{display: flex;
+            padding:5% 0 10% 0;
+            overflow-x: scroll;
+            }
+}
+
+@media (max-width: 374px){  
+.containerPromo{width:100%;
+
+				}
+									.leftPromo{width:100%;
+											padding: 5% ; 
+												margin: 0% 0% 0 0% ;
+												
+												}
+																	.rightPromo{width:80%;
+																				margin: 0% 10% 0 10%;
+																				
+																				 }
+.addNewPromo{	font-family: Rubik;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 1em;
+				margin: 0 0 0 5%;
+			}
+.MenuNewPromo{	
+    color: #6A4029;
+    font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin:0 0 3% 0;
+}
+.dataPromo{		font-family: Rubik;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 1.5rem;
+                margin:5% 0 0 0;
+				color: #6A4029; 
+			}
+.productSize{display: flex;
+            padding:5% 0 10% 0;
+            overflow-x: scroll;
+            }
+}
+
+
+
+
+
+
+
